@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+p{
+   line-height: 1.5px; 
+}
+
+h2{
+    text-align: center;
+}
+
+.nav{
+    width: 80%;
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    justify-items: flex-end;
+}
+
+.link-nav {
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 41.3px;
+    height: 53.1px;
+}

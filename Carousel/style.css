@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 86px;
+}
+
+.dots {
+    display: flex;
+    gap: 12px;
+
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #087f5b;
+}
+
+.dot--fill {
+    background-color: #087f5b;
+}
+
+img {
+    height: 200px;
+    border-radius: 10px;
+    transform: scale(1.7);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    
+    top: 50%;
+    transform: translate(0, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--left {
+    left: 0;
+    transform: translate(-50%, 0);
+}
+
+.btn--right {
+    right: 0;
+    transform: translate(50%, 0);
+}
+
+.btn-icon {
+    height: 28px;
+    width: 28px;
+}
+
+.carousel {
+    width: 80%;
+    margin: 100px auto;
+    background-color: #087f5b;
+    border-radius: 10px;
+    padding: 32px 48px 32px 86px;
+    color: white;
+    box-shadow: 10px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 86px;
+
+}
+
+.testimonial-text {
+    line-height: 1.5;
+    margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 500;
+}
