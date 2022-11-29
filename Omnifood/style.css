@@ -52,7 +52,6 @@ body {
 }
 
 .call-ta {
-    top: 50%;
     color: white;
 }
 
@@ -68,7 +67,7 @@ body {
 a{
     color: #333;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bolder;
     font-size: 18px;
     
 }
